@@ -4,7 +4,7 @@ Adafruit_SH1106G display(128, 64, &Wire, -1);
 
 void setupDisplay()
 {
-    Wire.begin(DISPLAY_Pins::SDA, DISPLAY_Pins::SCL);
+    Wire.begin(I2C_Pins::SDA, I2C_Pins::SCL);
     Wire.setClock(400000);
 
     delay(250);

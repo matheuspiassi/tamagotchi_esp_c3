@@ -1,5 +1,5 @@
 #include "pinnouts.h"
 
-//Pinagem display I2C
-const int DISPLAY_Pins::SDA = 8;
-const int DISPLAY_Pins::SCL = 9;
+//Pinagem I2C
+const int I2C_Pins::SDA = 8;
+const int I2C_Pins::SCL = 9;
